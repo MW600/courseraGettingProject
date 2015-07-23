@@ -1,6 +1,6 @@
 The tidy data set that can be obtained as a result of running run_analysis.R script contains averaged values of mean() and std() (average and standard deviation) measured features. Data comes from Human Activity Recognition Using Smartphones Dataset, available under: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
-Data set contains 180 observations of 68 variables.
+Tidy data set contains 180 observations of 68 variables.
 
 Identyfing variables are:
 
