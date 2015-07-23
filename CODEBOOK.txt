@@ -1,0 +1,32 @@
+The tidy data set that can be obtained as a result of running run_analysis.R script contains averaged values of mean() and std() (average and standard deviation) measured features. Data comes from Human Activity Recognition Using Smartphones Dataset, available under: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+Data set contains 180 observations of 68 variables.
+
+Identyfing variables are:
+
+subject - indicates the number of participant, who took part in the measurement. Ranges from 1 to 30.
+
+activity - indicates the activity, to which other values are corresponding. Possible values: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS. In total there 6 different values.
+
+Rest of variables are normalized (values in range [-1,1]) and averaged pairs of values corresponding to mean and standard deviation of:
+
+tBodyAcc-XYZ - body acceleration for axes X,Y,Z
+tGravityAcc-XYZ - gravity acceleration for axes X,Y,Z
+tBodyAccJerk-XYZ - Jerk signals for axes X,Y,Z
+tBodyGyro-XYZ - Jerk signals for axes X,Y,Z
+tBodyGyroJerk-XYZ - Jerk signals for axes X,Y,Z
+
+Various processed signals:
+
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
